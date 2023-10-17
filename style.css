@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+.page {
+   width: 1000px;
+   margin: 65px auto 0;
+}
+
+
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 30px;
+}
+
+footer a {
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1534;
+    word-wrap: break-word;
+   
+}
+
+
+
+#st:hover{
+ color: black;
+ font-weight: 500;
+ opacity: 1;
+} 
+
+a:hover {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+}
+
+#home {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+#st {
+    opacity: 0.50;
+}
+
+h1 {
+color: black;
+font-size: 49px;
+font-family: 'Mulish', sans-serif;
+font-weight: 400;
+line-height: 56px;
+word-wrap: break-word;
+margin-top: 0px;
+
+}
+
+span {
+    font-weight: 700;
+    color: #89C5CC;
+    line-height: 56px;
+    font-size: 49px;
+    word-wrap: break-word;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    color: #7D7987;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    word-wrap: break-word;
+    padding-top: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 0px;
+}
+
+
+strong {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    word-wrap: break-word;
+    border-style: none;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #69B99D;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #52a186;
+    transition: 0.2s;
+  }
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.balls {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
